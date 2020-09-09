@@ -1,10 +1,10 @@
 import random
 done = {''}
-ops = ['+', '-', '*', '/']
+ops = ['+', '-', '*', '/', '%']
 def randEquation(arg, res):
     equation = str(arg)
     for i in range(0, arg-1):
-        r = random.randint(0, 3)
+        r = random.randint(0, 4)
         op = ops[r]
         equation += op+str(arg)
     if eval(equation) == res and not equation in done:
