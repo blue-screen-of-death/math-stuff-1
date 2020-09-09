@@ -13,6 +13,7 @@ def randEquation(arg, res):
 while True:
     i = input('Choose a starting number (e.g 6 for splendid sixes): ')
     j = input('Choose a result number (e.g 3 for splendid sixes): ')
+    print('Hit Ctrl+C to stop generating expressions.');
     try:
         while True:
                 randEquation(int(i), int(j))
