@@ -5,7 +5,7 @@ while foo < 500:
     foo += 1
 lock = 2
 counter = 1
-input('Hit ENTER to start, hit Ctrl+C to stop the program. 5')
+input('Hit ENTER to start, hit Ctrl+C to stop the program. ')
 while True:
     try:
         while counter < len(lockers):
